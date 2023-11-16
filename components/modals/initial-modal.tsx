@@ -80,11 +80,11 @@ export const InitialModal = () =>{
                                     render={({ field }) => (
                                         <FormItem>
                                             <FormControl>
-                                                <FileUpload 
+                                            <FileUpload 
                                                     endpoint="serverImage"
                                                     value={field.value}
                                                     onChange={field.onChange}
-                                                />
+                                            />
                                             </FormControl>
                                         </FormItem>
                                     )}
