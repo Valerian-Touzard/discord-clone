@@ -2,7 +2,7 @@ import { Plus } from "lucide-react";
 
 import { ActionTooltip } from "@/components/action-tooltip"
 
-const NavigationAction = () => {
+export const NavigationAction = () => {
     return ( 
         <div>
             <ActionTooltip side="right" align="center" label="Add a label">
@@ -15,5 +15,3 @@ const NavigationAction = () => {
         </div>
     );
 }
- 
-export default NavigationAction;
